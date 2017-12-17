@@ -11,6 +11,7 @@ This GCS attempts to address the problem of locals in a third-world country havi
 ## Design Goals
 
 <details>
+
 Based on our initial descriptions:
 
 | Goal | Details | 
@@ -29,5 +30,26 @@ Based on our initial descriptions:
 <summary>
 Click to expand
 </summary>
-
 </details>
+
+## Basic problems that should trigger semi-automated troubleshooting
+<details>
+
+| Problem | Resolution |
+| --------- | --------- |
+| **Accelerometer re-calibration required** | Run through accelerometer calibration procedure | 
+| **Compass re-calibration required** | Run through compass calibration procedure | 
+| **Airspeed sensor re-calibration required** | Place hand over airspeed sensor tube and press a calibration button |
+| **Battery level insufficient for flight distance** | Change batteries |
+| **No GPS detected** | Check if GPS is plugged in | 
+| **No GPS lock after 1 minute** | Check GPS settings and where aircraft is placed |
+| **Accels/Gyros inconsistent** | Re-calibration accelerometer or restart |
+<summary>
+Click to expand
+</summary>
+</details>
+
+## Features Required
+| Priority | Feature | Description |
+| -------- | ------- | ----------- |
+
