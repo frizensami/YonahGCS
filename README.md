@@ -10,6 +10,7 @@ This GCS attempts to address the problem of locals in a third-world country havi
 
 ## Design Goals
 
+<details>
 Based on our initial descriptions:
 
 | Goal | Details | 
@@ -25,3 +26,8 @@ Based on our initial descriptions:
 
 
 *The Main Success Scenario (MSS) in this case might be: user clicks on destination and weight of cargo, waits for all lights on screen to turn green, then presses "arm and takeoff".
+<summary>
+Click to expand
+</summary>
+
+</details>
