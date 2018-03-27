@@ -1,4 +1,7 @@
 # Yonah Ground Control Station (GCS)
+
+## Description 
+
 Yonah GCS aims to be a ground control station for **monitoring** and **controlling** multiple unmanned aerial vehicles in **resource-constrained computing environments** which can be any combination of **technical** and **social** factors like:
 1. Limited Internet connectivity
 2. Slow and/or unreliable computing infrastructure
@@ -6,7 +9,7 @@ Yonah GCS aims to be a ground control station for **monitoring** and **controlli
 
 and more.
 
-This GCS attempts to address the problem of locals in a third-world country having to operate a ground control station for multiple aircraft that may be delivering medical cargo or other equipment/supplies while possibly not having the technical expertise or computing literacy to use existing ground control stations. 
+This GCS attempts to address the problem of **locals in a third-world country** having to operate a ground control station for multiple aircraft that may be delivering **medical cargo** or other equipment/supplies while possibly **not having the technical expertise or computing literacy** to use **existing ground control stations**. The GCS should also be designed for remote troubleshooting and monitoring by the team that designed the aircraft system. 
 
 ## User Profiles
 <details open>
