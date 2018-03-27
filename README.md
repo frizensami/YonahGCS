@@ -14,7 +14,7 @@ This GCS attempts to address the problem of locals in a third-world country havi
 
 Based on our initial descriptions:
 
-| Principles | Details | 
+| Principle | Details | 
 | --- | --- |
 | All text must be **easily translatable** | We expect many local languages to be used for the same GCS software. Internationalization must be built into the initial design of this software. | 
 | The **MSS** (Main Success Scenario*) flow must be extraordinarily **easy to follow** | Many operators are not likely to be computer-literate. The UI/UX design must have a straightforward flow for at least the MSS of the application. |
