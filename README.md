@@ -20,7 +20,7 @@ A core principle of this system is that you will only **download, install and lo
 | ---  | --- |
 | Local GCS Operator  | Should experience a straightforward flow to launch and manage aircraft, and to remedy simple issues with the aircraft if they arise |
 | Aircraft Technician | Should be able to diagnose and fix / suggest actions to remedy problems on the aircraft on the ground and in flight. Full access to the aircraft + aggregated diagnostics should be available |
-| Level 1 authorized remote user | View only: Local GCS Operator screens remote |
+| Level 1 authorized remote user | View only: Local GCS Operator screens remotely |
 | Level 2 authorized remote user | Level 1 authorized remote user + can control aircraft like Local GCS Operator| 
 | Level 3 authorized remote user | Level 2 authorized remote user + Aircraft Technician capabilities |
 
