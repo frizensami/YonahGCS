@@ -66,7 +66,28 @@ Click to expand/collapse
 </summary>
 </details>
 
-## Basic problems that should trigger semi-automated troubleshooting
+## Platform Pros/Cons
+**Browser-based GCS**
+- Pros
+    - Cross platform capability for all systems that might need to view / control the aircraft   
+    - Can be designed with mobile viewing in mind
+    - Only need one beefy laptop to be running a centralized server to collate data from all aircraft in AO
+    - Perhaps can use nodejs server with node-mavlink to write a single application. 
+- Cons
+    - Possible non-uniform user experience across platforms
+    - No "native" look and feel
+    - Browser itself uses a base amount of RAM/CPU to run
+    
+
+**Native application (Qt/WinForms/WPF)**
+- Pros
+    - Can control look and feel + performance of application quite tightly
+    - No need for server / frontend split. Can have one monolithic application, easier to software eng.
+    - Higher control of language being used - more static typing based languages are available, can eliminate errors during compile time instead of what JS offers. 
+- Cons
+    - Must install possibly complex packages into every controller's PC. Cross-platform capability is affected.
+    - Cannot view/control on mobile at all without separate application. 
+### Basic problems that should trigger semi-automated troubleshooting (Idea dump)
 <details>
 
 | Problem | Resolution |
